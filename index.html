@@ -1,0 +1,121 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PT Serif</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $('.menu a').each(function(){
+            $(this).on('click', function(e) {
+                e.preventDefault();
+                var scrollTo = $(this).attr('href');
+                var whitespace = 100;
+                $('html,body').animate({scrollTop: $(scrollTo).offset().top - whitespace }, 1000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="cover">
+        <h1>PT Serif</h1>
+        <span>О возможностях шрифта</span>
+        <img src="images/logo.svg" alt="">
+        <div class="menu">
+            <a href="#about">история</a>
+            <a href="#examples">примеры</a>
+            <a href="#school">вшэ</a>
+            <a href="#news">новости</a>
+        </div>
+    </div>
+    <div class="block" id='about'>
+        <img src="images/sym1.svg" alt="sym">
+        <span>PT Serif — это переходной шрифт с&nbspзасечками с&nbspгуманистическими терминалами.</span>
+        <div>
+            <p class="right-based">
+                Он&nbsp;разработан для&nbsp;использования вместе с PT Sans и&nbspгармонизирован по&nbspпоказателям, пропорциям, весам и&nbspдизайну.
+            </p>
+            <p class="right-based">
+                Проект посвящен 300-летию гражданского типа, изобретенного Петром Великим в&nbsp1708–1710 годах. Была оказана финансовая поддержка со&nbspстороны Федерального агентства по&nbspпечати и&nbspмассовым коммуникациям России.
+            </p>
+            <p class="right-based">
+                Шрифты включают стандартные западные, центральноевропейские и&nbspкириллические кодовые страницы, а&nbspтакже символы каждого заглавного языка в&nbspРоссийской Федерации. Это делает их&nbspуникальным и&nbspочень важным инструментом для&nbspсовременной цифровой связи.
+            </p>
+        </div>
+    </div>
+    <div class="block" id='examples'>
+        <img src="images/sym2.svg" alt="sym">
+        <span>Примеры использования шрифта</span>
+        <span>(Гражданская оборона)</span>
+        <div>
+            <p>Жратый народище мацает свет<br>
+            Пузырные жопы, лихие дела<br>
+            Я в лужу упал, чтоб не видеть ваш нет<br>
+            Но там отражаются ваши тела</p>
+            <p>
+                Поганая жизнь, поганая нить<br>
+                Козырная харя картавой толпы<br>
+                Я лезу на стену, меня не убить<br>
+                Но я протыкаюсь на ваши пупы
+            </p>
+        </div>
+    </div>
+    <div class="block" id="school">
+        <div>
+            <p>Школа дизайна НИУ ВШЭ предлагает слушателям широкую линейку образовательных курсов. Вы&nbspможете ознакомиться с&nbspполным списком
+или&nbspвыбрать одно из&nbsp14 образовательных направлений, уровень обучения
+и&nbspдату старта, чтобы найти курс, который подходит именно вам.</p>
+            <p>
+                Онлайн-курсы позволят людям из&nbspразных регионов России изучать образовательные программы на&nbspуровне ведущего университета,
+занявшего первое место среди российских вузов в&nbspкатегории Art&Design
+(по версии QS), не&nbspвыходя из&nbspдома.
+            </p>
+        </div>
+    </div>
+    <div class="block" id="news">
+        <div class="mayak">
+            <span>Маяковский «Облако в штанах»</span>
+            <p>
+                Вошла ты,<br>
+                резкая, как «нате!»,<br>
+                муча перчатки замш,<br>
+                сказала:<br>
+                «Знаете —<br>
+                я выхожу замуж».<br>
+                <br>
+                Что ж, выходи́те.<br>
+                Ничего.<br>
+                Покреплюсь.<br>
+                Видите — спокоен как!<br>
+                Как пульс<br>
+                покойника.<br>
+                <br>
+                Помните?<br>
+                Вы говорили:<br>
+                «Джек Лондон,<br>
+                деньги,<br>
+                любовь,<br>
+                страсть», —<br>
+                а я одно видел:<br>
+                вы — Джиоконда,<br>
+                которую надо украсть!<br>
+                И украли.
+            </p>
+        </div>
+        <div id='last-news'>
+            <p id='mosobl'>Московская область попала в&nbspтоп регионов ЦФО по&nbspуровню цифровой грамотности.</p>
+            <p>Рейтинг цифровой грамотности составили по&nbspрезультатам цифрового диктанта. Его проводили с&nbsp28 марта до&nbsp11 апреля.</p>
+            <p>Первое место в&nbspсписке заняла Тамбовская область. А&nbspстолица оказалась на&nbsp13 месте. Об&nbspэтом Гребенников рассказал на&nbspкруглом столе, посвященном хакатону «Цифровой прорыв-2020».</p>
+        </div>
+    </div>
+    <div class="block" id='footer'>
+        <div>
+            <span>instagram: @shtoneshto</span>
+            <span>vk.com/webworldwide</span>
+            <span>https://github.com/DarinaNeshto</span>
+        </div>
+    </div>
+</body>
+</html>

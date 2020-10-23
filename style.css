@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    width: 1440px;
+    height: 4759px;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+
+    font-family: 'PT Serif', serif;
+    color: #C4C4C4;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 115px;
+    line-height: 152px;
+}
+
+.cover {
+    position: relative;
+    height: 796px;
+}
+
+.cover h1 {
+    position: absolute;
+    left: 199px;
+    top: 26px;
+}
+
+.cover span {
+    position: absolute;
+    left: 324px;
+    top: 153px;
+
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.cover img {
+    position: absolute;
+    top: 75px;
+    right: 75px;
+}
+
+.cover div{
+    position: absolute;
+    top: 282px;
+    left: 122px;
+}
+
+.cover  div a {
+	display: block;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+	color: #C4C4C4;
+}
+
+.block {
+    padding-left: 120px;
+    padding-right: 120px;
+    box-sizing: border-box;
+}
+
+#about {
+    height: 560px;
+    position: relative;
+}
+
+#about img {
+    position: absolute;
+    left: 136.26px;
+    top: 297.7px;
+}
+
+#about span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+#about div {
+    width: 870px;
+    margin-top: 70px;
+    float: right;
+    position: relative;
+    right: 100px;
+}
+
+#about div p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+#examples {
+    position: relative;
+}
+
+#examples span {
+    display: block;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+#examples div {
+    margin-top: 30px;
+}
+
+#examples p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(229, 229, 229, 0.92);
+    margin-bottom: 25px;
+}
+
+#examples img {
+    position: absolute;
+    left: 720px;
+    top: 333.07px;
+}
+
+#school {
+    height: 535px;
+    padding-top: 90px;
+}
+
+#school div {
+    margin-top: 90px;
+    margin-left: 250px;
+}
+
+#school div p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+
+#news {
+    position: relative;
+    height: 2040px;
+}
+
+#news .mayak{
+    padding-top: 145px;
+}
+
+#news .mayak span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 45px;
+}
+
+#news .mayak p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    margin-top: 45px;
+}
+
+#last-news {
+    position: absolute;
+    width: 875px;
+    right: 43px;
+    bottom: 962.24px;
+}
+
+#last-news p {
+    font-family: PT Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 28px;
+margin-bottom: 40px;
+
+color: rgba(229, 229, 229, 0.92);
+}
+
+#mosobl {
+    font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 28px;
+}
+
+
+#footer {
+    padding-top: 65px;
+    height: 290px;
+}
+
+#footer div span {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
